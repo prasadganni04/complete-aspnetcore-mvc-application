@@ -9,7 +9,7 @@ namespace eTickets.Data.Services
 {
     public class ActorsService : IActorsService
     {
-        private readonly AppDbContext _context;
+        private readonly AppDbContext _context; //injecting the app dbcontext to work with the db
 
         public ActorsService(AppDbContext context)
         {
