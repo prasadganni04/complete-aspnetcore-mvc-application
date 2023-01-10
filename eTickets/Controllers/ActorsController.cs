@@ -23,7 +23,7 @@ namespace eTickets.Controllers
         }
 
         // GET: Actors/Create
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
             return View();
         }
